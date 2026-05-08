@@ -1,0 +1,263 @@
+@font-face{
+    font-family:'Misano';
+    src:url('fonts/Misano.ttf');
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#eeeeee;
+}
+
+/* HEADER */
+
+.top-header{
+    width:100%;
+    height:120px;
+
+    background:#F3CF7A;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.header-wrapper{
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.nav-pill{
+    background:white;
+
+    padding:12px 35px;
+
+    border-radius:40px;
+
+    display:flex;
+    gap:30px;
+}
+
+.nav-pill a{
+    text-decoration:none;
+
+    font-family:'Mochiy Pop One', sans-serif;
+    font-size:24px;
+
+    color:black;
+
+    padding:6px 18px;
+
+    border-radius:20px;
+}
+
+.nav-pill .active{
+    background:#F3CF7A;
+}
+
+/* HOME */
+
+.home-section{
+    width:100%;
+    height:100vh;
+
+    background:#eeeeee;
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+.home-title{
+    position:absolute;
+    top:20px;
+
+    width:100%;
+
+    text-align:center;
+
+    font-family:'Misano';
+    font-size:128px;
+
+    color:white;
+
+    -webkit-text-stroke:5px black;
+
+    z-index:2;
+}
+
+.home-btn,
+.about-btn{
+    background:#F3CF7A;
+
+    text-decoration:none;
+
+    color:black;
+
+    font-family:'Mochiy Pop One', sans-serif;
+    font-size:32px;
+
+    padding:20px 60px;
+
+    border-radius:20px;
+
+    z-index:2;
+}
+
+.role-btn{
+    position:absolute;
+    left:90px;
+    top:360px;
+}
+
+.contact-btn{
+    position:absolute;
+    right:90px;
+    top:360px;
+}
+
+.home-image-box{
+    width:100%;
+    height:100vh;
+
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.home-image-box img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+}
+
+.about-btn{
+    position:absolute;
+
+    bottom:40px;
+    left:50%;
+
+    transform:translateX(-50%);
+}
+
+/* ABOUT & ROLE */
+
+.about-section,
+.role-section{
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    gap:80px;
+
+    padding:80px;
+}
+
+.about-left img,
+.role-right img{
+    width:500px;
+}
+
+.about-right,
+.role-left{
+    width:650px;
+}
+
+.title-box{
+    background:#F3CF7A;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    margin-bottom:40px;
+}
+
+.title-box h1{
+    font-family:'Mochiy Pop One', sans-serif;
+    font-size:40px;
+}
+
+.about-text p{
+    font-family:'Molengo', sans-serif;
+    font-size:20px;
+
+    line-height:1.7;
+
+    text-align:center;
+
+    margin-bottom:35px;
+}
+
+.role-text p{
+    font-family:'Molengo', sans-serif;
+    font-size:16px;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+    text-align:left;
+}
+
+.second-title{
+    margin-top:50px;
+}
+
+/* CONTACT */
+
+.contact-section{
+    width:100%;
+    min-height:100vh;
+
+    padding:80px;
+}
+
+.follow-title{
+    width:420px;
+
+    margin:0 auto 70px;
+}
+
+.contact-wrapper{
+    display:flex;
+    justify-content:center;
+
+    gap:120px;
+}
+
+.contact-card{
+    width:450px;
+
+    text-align:center;
+}
+
+.social-title{
+    margin-bottom:40px;
+}
+
+.contact-card img{
+    width:100%;
+
+    margin-bottom:30px;
+}
+
+.contact-card p{
+    font-family:'Mochiy Pop One', sans-serif;
+    font-size:15px;
+
+    line-height:1.7;
+}
